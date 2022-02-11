@@ -1,0 +1,41 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+
+} */
+
+.header{
+    height: 75px;
+    width: 400px;
+    background-color: rgba(225, 7, 0);
+    font-size: 25px;
+    text-align: center;
+}
+.header h1{
+    font-style: italic;
+}
+.left p{
+    margin-left: 40px;
+    width: 300px;
+    color: rgb(17, 17, 17);
+}
+.right{
+    height: 1080px;
+    width: 400px;
+    background-color: rgb(247, 247, 9);
+    font-style: oblique;
+    font-size: 16px;
+}
+.aside{
+    display: flex;
+}
+.beside{
+    display: flex;
+}
+.footer{
+    display: flex;
+}
+.text{
+    display: flex;
+}
+
