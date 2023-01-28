@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background: #131921;
+    display: flex;
+    padding: 15px;
+}
+.Logo{
+    height: 36px;
+    width: 98px;
+}
+
+.inn{
+    color: #fff;
+   
+}
+
+.Hello{
+    margin-left: 24px;
+    color: #fff;
+    font-size: smaller;
+    display: flex;
+}
+.paragraph{
+    color: #fff;
+    margin-left: 25px;
+    margin-bottom: 17px;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background: rgb(41, 194, 168);
+    color: #fff;
+}
