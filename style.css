@@ -1,43 +1,71 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    
-}
-body{
-    font-family: sans-serif;
-}
-header{
-    height: 60px;
-    width: 100%;
-    background: #131921;
-    display: flex;
-    padding: 15px;
-}
-.Logo{
-    height: 36px;
-    width: 98px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0; 
 }
 
-.inn{
+.header{
+    height: 60px;
+    width: 100%;
+    padding: 13px;
+    background: #000;
     color: #fff;
+    display: flex;
+}
+
+.image{
+    height: 36px;
+    width: 98px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.innn{
+    color: white;
+    text-decoration: none;
+    font-style: none;
+    
+}
+
+.bi{
+    margin-left: 13px;
+    margin-top: 15px;
+    margin-right: .0px;
    
 }
 
-.Hello{
-    margin-left: 24px;
-    color: #fff;
-    font-size: smaller;
-    display: flex;
+.hello{
+    font-size: 13px;
+    margin-left: 20px;
 }
-.paragraph{
-    color: #fff;
-    margin-left: 25px;
-    margin-bottom: 17px;
+
+.address{
+    font-weight: bolder;
+    font-size: 15px;
+    padding-bottom: 12px;
 }
-.header{
-    height: 200px;
-    width: 100%;
-    background: rgb(41, 194, 168);
-    color: #fff;
+
+.nav-search-dropdown{
+    margin-left: 13px;
+    width: 45px;
+    outline: #febd69;
+    border-radius: 6px 0px 0px 6px;
 }
+
+.Search{
+    width: 500px;
+}
+
+.Searchbutton{
+    height: 35px;
+    width: 45px;
+    border-radius: 0px 5px 5px 0px;
+    background: #febd69;
+}
+
+.bi2{
+    height: 20px;
+    width: 30px;
+   
+}
+
